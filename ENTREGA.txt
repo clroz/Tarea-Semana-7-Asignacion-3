@@ -1,0 +1,6 @@
+Entrega — Tarea Semana 7 (Asignación 3)
+
+Repositorio de GitHub: pendiente de publicar
+Video demostrativo en YouTube: pendiente de grabar y publicar
+
+El video debe durar como máximo 10 minutos, mostrar fecha y hora, y permitir ver el rostro y escuchar la voz del estudiante. Debe demostrar la topología y la recepción de datos SNMP en Zabbix.

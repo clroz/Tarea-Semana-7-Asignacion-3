@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">Topología del laboratorio de seguridad de redes</title>
+  <desc id="desc">El router Ubuntu del nodo Docker entrega DHCP y SNMP. El switch conecta al router con el servidor Zabbix.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#52657a"/></marker>
+    <style>
+      .box{rx:18;ry:18;stroke-width:2}.title{font:700 20px Arial,sans-serif;fill:#102a43}.sub{font:14px Arial,sans-serif;fill:#334e68}.line{stroke:#52657a;stroke-width:4;fill:none}.label{font:13px Arial,sans-serif;fill:#243b53}.tag{font:700 12px Arial,sans-serif;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1100" height="430" rx="22" fill="#f4f8fb"/>
+  <text x="550" y="42" text-anchor="middle" class="title">LAN de monitoreo · 192.168.7.0/24</text>
+  <rect x="54" y="124" width="280" height="190" class="box" fill="#e8f3ff" stroke="#2383c4"/>
+  <rect x="410" y="124" width="280" height="190" class="box" fill="#eaf8f0" stroke="#2e8b57"/>
+  <rect x="766" y="124" width="280" height="190" class="box" fill="#fff4e5" stroke="#d9822b"/>
+  <text x="194" y="165" text-anchor="middle" class="title">Router · Docker/Ubuntu</text>
+  <text x="194" y="198" text-anchor="middle" class="sub">eth1 · 192.168.7.1/24</text>
+  <text x="194" y="226" text-anchor="middle" class="sub">DHCP · dnsmasq</text>
+  <text x="194" y="252" text-anchor="middle" class="sub">SNMPv2c · solo lectura</text>
+  <text x="194" y="278" text-anchor="middle" class="sub">Comunidad: LabZabbixRo-7</text>
+  <text x="550" y="165" text-anchor="middle" class="title">Switch SW1 · IOSv L2</text>
+  <text x="550" y="198" text-anchor="middle" class="sub">VLAN 1 · 192.168.7.2/24</text>
+  <text x="550" y="226" text-anchor="middle" class="sub">Gi0/1 ↔ Router</text>
+  <text x="550" y="252" text-anchor="middle" class="sub">Gi0/0 ↔ Zabbix</text>
+  <text x="550" y="278" text-anchor="middle" class="sub">SNMPv2c RO · ACL 10</text>
+  <text x="906" y="165" text-anchor="middle" class="title">Zabbix Server 7.0.32</text>
+  <text x="906" y="198" text-anchor="middle" class="sub">eth0 · DHCP .194</text>
+  <text x="906" y="226" text-anchor="middle" class="sub">Template: Linux by SNMP</text>
+  <text x="906" y="252" text-anchor="middle" class="sub">Template: Cisco IOS by SNMP</text>
+  <text x="906" y="278" text-anchor="middle" class="sub">Web · zabbix.lab.local</text>
+  <path d="M334 218 H400" class="line" marker-end="url(#arrow)"/>
+  <path d="M690 218 H756" class="line" marker-end="url(#arrow)"/>
+  <rect x="338" y="177" width="64" height="24" rx="12" fill="#52657a"/><text x="370" y="194" text-anchor="middle" class="tag">DHCP</text>
+  <rect x="694" y="177" width="58" height="24" rx="12" fill="#52657a"/><text x="723" y="194" text-anchor="middle" class="tag">SNMP</text>
+  <text x="550" y="370" text-anchor="middle" class="label">Redes PNETLab: network 2 (Router–Switch) · network 1 (Switch–Zabbix)</text>
+  <text x="550" y="397" text-anchor="middle" class="label">El router y el switch son los equipos originales; no se agregó ningún nodo.</text>
+</svg>

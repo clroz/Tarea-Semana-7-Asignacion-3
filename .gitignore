@@ -1,0 +1,9 @@
+# Appliance images are installed in PNETLab and are too large for this source repo.
+*.iso
+*.qcow2
+*.tar.gz
+zabbix_appliance-7.0.32-qcow2/
+
+# Temporary diagnostic captures.
+zabbix-*.png
+zabbix-*.ppm

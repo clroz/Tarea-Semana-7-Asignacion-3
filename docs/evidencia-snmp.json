@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-11-06",
+  "zabbix_version": "7.0.32",
+  "metodo": "Zabbix API host.get e item.get",
+  "comunidad": "LabZabbixRo-7",
+  "hosts": [
+    {
+      "host": "R1-Ubuntu-Docker",
+      "nombre": "Router Ubuntu Docker",
+      "ip": "192.168.7.1",
+      "plantilla": "Linux by SNMP",
+      "interfaz_snmp_disponible": true,
+      "item": "System description",
+      "valor": "Ubuntu 20.04 router/DHCP node"
+    },
+    {
+      "host": "SW1-Cisco-IOSv",
+      "nombre": "Switch SW1",
+      "ip": "192.168.7.2",
+      "plantilla": "Cisco IOS by SNMP",
+      "interfaz_snmp_disponible": true,
+      "item": "System description",
+      "valor": "Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M)"
+    }
+  ]
+}
