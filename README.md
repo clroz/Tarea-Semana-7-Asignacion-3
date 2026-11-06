@@ -1,7 +1,6 @@
 ## Video demostrativo
 
-**Enlace de YouTube:** [Demostración del laboratorio](https://youtu.be/Il0nBZ3JDAg). El video debe durar como máximo 10 minutos e incluir fecha y hora, rostro y voz del estudiante.
-
+**Enlace de YouTube:** [Demostración del laboratorio](https://youtu.be/Il0nBZ3JDAg). 
 # Laboratorio de seguridad de redes: DHCP y monitoreo SNMP
 
 ## Propósito
