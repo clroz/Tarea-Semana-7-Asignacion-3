@@ -8,17 +8,17 @@
     </style>
   </defs>
   <rect width="1100" height="430" rx="22" fill="#f4f8fb"/>
-  <text x="550" y="42" text-anchor="middle" class="title">LAN de monitoreo · 192.168.7.0/24</text>
+  <text x="550" y="42" text-anchor="middle" class="title">LAN de monitoreo · 192.168.45.0/24</text>
   <rect x="54" y="124" width="280" height="190" class="box" fill="#e8f3ff" stroke="#2383c4"/>
   <rect x="410" y="124" width="280" height="190" class="box" fill="#eaf8f0" stroke="#2e8b57"/>
   <rect x="766" y="124" width="280" height="190" class="box" fill="#fff4e5" stroke="#d9822b"/>
   <text x="194" y="165" text-anchor="middle" class="title">Router · Docker/Ubuntu</text>
-  <text x="194" y="198" text-anchor="middle" class="sub">eth1 · 192.168.7.1/24</text>
+  <text x="194" y="198" text-anchor="middle" class="sub">eth1 · 192.168.45.1/24</text>
   <text x="194" y="226" text-anchor="middle" class="sub">DHCP · dnsmasq</text>
   <text x="194" y="252" text-anchor="middle" class="sub">SNMPv2c · solo lectura</text>
   <text x="194" y="278" text-anchor="middle" class="sub">Comunidad: LabZabbixRo-7</text>
   <text x="550" y="165" text-anchor="middle" class="title">Switch SW1 · IOSv L2</text>
-  <text x="550" y="198" text-anchor="middle" class="sub">VLAN 1 · 192.168.7.2/24</text>
+  <text x="550" y="198" text-anchor="middle" class="sub">VLAN 1 · 192.168.45.2/24</text>
   <text x="550" y="226" text-anchor="middle" class="sub">Gi0/1 ↔ Router</text>
   <text x="550" y="252" text-anchor="middle" class="sub">Gi0/0 ↔ Zabbix</text>
   <text x="550" y="278" text-anchor="middle" class="sub">SNMPv2c RO · ACL 10</text>

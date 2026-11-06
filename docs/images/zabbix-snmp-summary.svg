@@ -5,11 +5,11 @@
   <text x="490" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#102a43">Datos SNMP recibidos en Zabbix 7.0.32</text>
   <rect x="40" y="76" width="430" height="184" rx="14" fill="#fff" stroke="#2e8b57" stroke-width="2"/>
   <rect x="510" y="76" width="430" height="184" rx="14" fill="#fff" stroke="#2e8b57" stroke-width="2"/>
-  <circle cx="78" cy="112" r="9" fill="#2e8b57"/><text x="98" y="119" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#102a43">Router Ubuntu Docker · 192.168.7.1</text>
+  <circle cx="78" cy="112" r="9" fill="#2e8b57"/><text x="98" y="119" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#102a43">Router Ubuntu Docker · 192.168.45.1</text>
   <text x="66" y="157" font-family="Arial,sans-serif" font-size="14" fill="#334e68">SNMPv2c · disponible</text>
   <text x="66" y="194" font-family="Arial,sans-serif" font-size="13" fill="#334e68">System description</text>
   <text x="66" y="219" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#102a43">Ubuntu 20.04 router/DHCP node</text>
-  <circle cx="548" cy="112" r="9" fill="#2e8b57"/><text x="568" y="119" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#102a43">Switch SW1 · 192.168.7.2</text>
+  <circle cx="548" cy="112" r="9" fill="#2e8b57"/><text x="568" y="119" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#102a43">Switch SW1 · 192.168.45.2</text>
   <text x="536" y="157" font-family="Arial,sans-serif" font-size="14" fill="#334e68">SNMPv2c · disponible</text>
   <text x="536" y="194" font-family="Arial,sans-serif" font-size="13" fill="#334e68">System description</text>
   <text x="536" y="219" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#102a43">Cisco IOS Software, vios_l2</text>

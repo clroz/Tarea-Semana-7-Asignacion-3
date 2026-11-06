@@ -8,7 +8,8 @@ if ! command -v dnsmasq >/dev/null || ! command -v snmpd >/dev/null || ! command
 fi
 
 ip link set eth1 up
-ip addr replace 192.168.7.1/24 dev eth1
+ip -4 addr flush dev eth1
+ip addr replace 192.168.45.1/24 dev eth1
 sysctl -w net.ipv4.ip_forward=1 >/dev/null
 printf 'nameserver 8.8.8.8\n' > /etc/resolv.conf
 
@@ -18,21 +19,21 @@ interface=eth1
 bind-interfaces
 no-resolv
 dhcp-authoritative
-dhcp-range=192.168.7.100,192.168.7.199,255.255.255.0,12h
-dhcp-host=50:4d:a0:00:03:00,192.168.7.194,zabbix-server
-dhcp-option=option:router,192.168.7.1
-dhcp-option=option:dns-server,192.168.7.1
+dhcp-range=192.168.45.100,192.168.45.199,255.255.255.0,12h
+dhcp-host=50:4d:a0:00:03:00,192.168.45.194,zabbix-server
+dhcp-option=option:router,192.168.45.1
+dhcp-option=option:dns-server,192.168.45.1
 domain=lab.local
 local=/lab.local/
-address=/router.lab.local/192.168.7.1
-address=/zabbix.lab.local/192.168.7.194
+address=/router.lab.local/192.168.45.1
+address=/zabbix.lab.local/192.168.45.194
 log-dhcp
 log-facility=/var/log/dnsmasq-router.log
 EOF
 
 cat > /etc/snmp/snmpd.conf <<'EOF'
-agentaddress udp:192.168.7.1:161
-rocommunity LabZabbixRo-7 192.168.7.0/24
+agentaddress udp:192.168.45.1:161
+rocommunity LabZabbixRo-7 192.168.45.0/24
 sysName Router-Ubuntu-Docker
 sysDescr Ubuntu 20.04 router/DHCP node
 sysLocation Laboratorio-Seguridad-Redes

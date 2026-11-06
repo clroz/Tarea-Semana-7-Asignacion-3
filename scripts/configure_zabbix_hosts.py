@@ -45,8 +45,8 @@ def main():
         templates[name] = found[0]["templateid"]
 
     devices = [
-        ("R1-Ubuntu-Docker", "Router Ubuntu Docker", "192.168.7.1", "Linux by SNMP"),
-        ("SW1-Cisco-IOSv", "Switch SW1", "192.168.7.2", "Cisco IOS by SNMP"),
+        ("R1-Ubuntu-Docker", "Router Ubuntu Docker", "192.168.45.1", "Linux by SNMP"),
+        ("SW1-Cisco-IOSv", "Switch SW1", "192.168.45.2", "Cisco IOS by SNMP"),
     ]
     for host, label, address, template in devices:
         interface = {
