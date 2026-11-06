@@ -48,14 +48,6 @@ El laboratorio conserva los tres nodos de la topología: Docker/Ubuntu como rout
 1. En PNETLab, iniciar el laboratorio `Tarea Semana 7 (Asignación 3)`.
 2. El nodo Docker ejecuta el hook `config_docker_router.py`; `eth1` queda en `192.168.45.1/24` y se levantan DHCP y SNMP.
 3. El appliance Zabbix recibe una dirección por DHCP. La reservación configurada para su MAC es `192.168.45.194`.
-4. Zabbix consulta los dos dispositivos por SNMP. Si se necesita recrear los hosts, ejecutar desde una máquina que alcance Zabbix:
+4. Zabbix consulta los dos dispositivos por SNMP. 
 
-   ```sh
-   python3 scripts/configure_zabbix_hosts.py \\
-     --url http://zabbix.lab.local/api_jsonrpc.php \\
-     --password 'CONTRASENA_ADMIN_ZABBIX'
-   ```
-
-## Demostración sugerida
-
-Mostrar la fecha y hora; la topología con los tres nodos; la IP del router y del switch; el lease DHCP de Zabbix; y en Zabbix, ambos hosts con disponibilidad SNMP y el valor `System description`. El video está publicado en YouTube y su enlace también figura en `StarlinCampusano_20221745_A3.txt`.
+FINN!!!!!!
