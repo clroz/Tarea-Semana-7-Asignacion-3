@@ -57,4 +57,4 @@ El laboratorio conserva los tres nodos de la topología: Docker/Ubuntu como rout
 
 ## Demostración sugerida
 
-Mostrar la fecha y hora; la topología con los tres nodos; la IP del router y del switch; el lease DHCP de Zabbix; y en Zabbix, ambos hosts con disponibilidad SNMP y el valor `System description`. El video final debe subirse a YouTube y su enlace agregarse al inicio de este README y a `ENTREGA.txt`.
+Mostrar la fecha y hora; la topología con los tres nodos; la IP del router y del switch; el lease DHCP de Zabbix; y en Zabbix, ambos hosts con disponibilidad SNMP y el valor `System description`. El video final debe subirse a YouTube y su enlace agregarse al inicio de este README y a `Starlincampusano_20221745_A3.txt`.
