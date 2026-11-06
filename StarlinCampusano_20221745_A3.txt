@@ -1,4 +1,4 @@
-Nombre: Starlincampusano
+Nombre: Starlin Campusano
 Matrícula: 20221745
 Asignación: A3
 
@@ -6,7 +6,7 @@ Repositorio de GitHub:
 https://github.com/clroz/Tarea-Semana-7-Asignacion-3
 
 Video demostrativo en YouTube:
-Pendiente de grabar y publicar.
+https://youtu.be/Il0nBZ3JDAg
 
 Nota:
 Cualquier indicio de fraude equivale a la descalificación total de la asignación hacia los individuos participantes.

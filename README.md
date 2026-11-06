@@ -1,6 +1,6 @@
 ## Video demostrativo
 
-**Enlace de YouTube:** pendiente de grabar y publicar por el estudiante. El video debe durar como máximo 10 minutos e incluir fecha y hora, rostro y voz del estudiante.
+**Enlace de YouTube:** [Demostración del laboratorio](https://youtu.be/Il0nBZ3JDAg). El video debe durar como máximo 10 minutos e incluir fecha y hora, rostro y voz del estudiante.
 
 # Laboratorio de seguridad de redes: DHCP y monitoreo SNMP
 
@@ -59,4 +59,4 @@ El laboratorio conserva los tres nodos de la topología: Docker/Ubuntu como rout
 
 ## Demostración sugerida
 
-Mostrar la fecha y hora; la topología con los tres nodos; la IP del router y del switch; el lease DHCP de Zabbix; y en Zabbix, ambos hosts con disponibilidad SNMP y el valor `System description`. El video final debe subirse a YouTube y su enlace agregarse al inicio de este README y a `Starlincampusano_20221745_A3.txt`.
+Mostrar la fecha y hora; la topología con los tres nodos; la IP del router y del switch; el lease DHCP de Zabbix; y en Zabbix, ambos hosts con disponibilidad SNMP y el valor `System description`. El video está publicado en YouTube y su enlace también figura en `StarlinCampusano_20221745_A3.txt`.
